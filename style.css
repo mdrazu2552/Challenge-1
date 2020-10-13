@@ -1,0 +1,393 @@
+.mid{
+    max-width: 1004px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+/* ======= Header top section css start=============== */
+.header-top{
+    background-color: #232323;
+    padding: 8px 0;
+    }
+    
+    .header-logo img{
+        width: 15px;
+        display: inline-block;
+        margin-top: -5px;
+    }
+    .header-logo h3{
+        color: #fff;
+        display: inline-block;
+        font-size: 22px;
+    }
+    .header-logo span {
+        color: #81b441;
+    }
+    .d-btn {
+        background: #333333 none repeat scroll 0 0;
+        border: 0;
+        padding: 5px 14px;
+        margin-top: 3px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .d-btn:hover{
+        background-color: black;
+    }
+    /* ======= Header top section css End=============== */
+    /* ======= Header bottom section css start=============== */
+    .header-bottom {
+        background-color: #333333;
+        padding: 12px 0;
+    }
+    
+    .header-menu ul li {
+       margin-bottom: -14px;;
+    }
+    
+    .header-menu ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .header-menu ul li img {
+        width: 18px;
+        height: 18px;
+    }
+    .header-menu ul li span {
+        color: #cecece;
+        margin-right: 22px;
+    }
+    /* ======= Header bottom section css end=============== */
+    /* ======= Banner section css Start=============== */
+    .banner-section{
+        background:url("https://i.ibb.co/3k6cqVy/banner-bg.jpg ");
+        padding: 29px 0;
+    }
+    .banner-section h3 {
+        color: #fff;
+        font-size: 41px;
+        font-weight: bold;
+        margin-bottom: 23px;
+    }
+.banner-section p {
+        width: 757px;
+        margin: auto;
+        margin-bottom: 18px;
+        font-size: 19px;
+        color: #fff;
+    }
+ .banner-section h4 {
+         color: #fff;
+         font-weight: bold;
+         margin-bottom: 48px;
+     }
+.c-btn {
+    padding: 17px 16px;
+    font-size: 17px;
+    margin-right: 23px;
+}
+
+.c-btn span {
+    margin-right: 70px;
+    color: #666666;
+}
+.search-input input{
+    padding: 17px 16px;
+    font-size: 17px;
+   padding-right: 250px;
+}
+.search-icon span {
+    background: #fff;
+    width: 50px;
+    display: inline-block;
+    height: 61px;
+    border-radius: 0 8px 8px 0;
+    text-align: center;
+    font-size: 41px;
+}
+    /* ======= Banner section css end=============== */
+    /* ======= Template-section css Start=============== */
+   
+    .Template-section {
+        background-color: #f5f5f5;
+    }
+    .title h3{
+        font-size: 36px;
+        margin-bottom: 14px;
+        font-weight: bold;
+    }
+        .title h4{
+        color: #666666;
+        font-size: 22px;
+    }
+
+    .template-items .card {
+        padding: 21px;
+        box-shadow: 1px 1px 17px 0 #ddd;
+        margin-bottom: 23px;
+    }
+    .template-items .logo img {
+        width: 32px;
+        height: 29px;
+        display: inline-block;
+        margin-right: 4px;
+    }
+    .template-items .logo span {
+        font-size: 26px;
+        color: #000;
+        font-weight: normal;
+       
+    }
+    .content p {
+        font-size: 14px;
+        color: #666666;
+        margin-bottom: 30px;
+    }
+    .content p a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+       
+    }
+    .content p a:hover {
+        color:#1abc9c;
+    }
+    .b-btn {
+        padding: -58px -1px;
+        display: block;
+        padding: -11px 0;
+        font-size: 14px;
+        padding: 11px 0px;
+        box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.6);
+        background: #1abc9c;
+    }
+    .b-btn:hover{
+        text-decoration: none;
+    }
+
+    /* ======= Template-section css end=============== */
+    /* ======= Worker-section css Start=============== */
+    .worker-section{
+        background-color: #7bc4c4;
+        padding: 40px;
+    }
+   
+    .title h3 {
+        font-size: 36px;
+        margin-bottom: 14px;
+        font-weight: bold;
+    }
+    .worker-section .title h4 {
+        color: #fdf3a9;
+        font-weight: normal;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .worker-data img {
+        width: 147px;
+        display: inline-block;
+      
+    }
+    .worker-details {
+        width: 333px;
+    }
+    .worker-details h3 {
+        color: #fff;
+        font-size: 26px;
+        font-weight: normal;
+    }
+    .worker-details h6 {
+  
+        color: #fdf3a9;
+        margin-top: -10px;
+        margin-bottom: 17px;
+    }
+    .worker-details p {
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .worker-data p a{
+        color: #fdf3a9;
+        font-weight: bold;
+    }
+    .worker-data p a:hover{
+        color: Black;
+    }
+    .w-btn {
+        background: black;
+        color: #fdf3a9;
+        padding: 7px 33px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+.w-btn:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid #fff;
+}
+    /* ======= Worker-section css end=============== */
+    /* ======= joiner-section css Start=============== */
+    .join-section{
+        background-color: #444444;
+    }
+    .joiner-information h3 {
+        color: #fff;
+        font-size: 46px;
+    }
+    .joiner-information h6 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .j-btn {
+        background: #7aa93c;
+        padding: 23px 64px;
+        font-size: 25px;
+       
+    }
+    /* ======= joiner-section css end=============== */
+    /* ======= Bottom-top-section css Start=============== */
+  
+    .Bottom-top {
+        background-color: #333333;
+        padding: 10px 0px;
+        padding-top: 16px;
+       
+    }
+    .bottom-top-content {
+        margin-left: 73px;
+    }
+    .bottom-top-content span {
+        color: #fff;
+        display: inline-block;
+    }
+    .bottom-top-content p {
+        display: inline-block;
+        color: #999;
+       
+    }
+    /* ======= Bottom-top-section css end=============== */
+    /* ======= Bottom-Middle-section css Start=============== */
+    .bottom-middle-section{
+        background-color: #333333;
+    }
+    .Bottom-top .row {
+        border-bottom: 1px solid #7e7e7e;
+    }
+    .bottom-middle-left h4 {
+        color: #999;
+        margin: 1px 0;
+    }
+    .bottom-middle-left h3 {
+        color: #999;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    .bottom-middle-left h5 {
+        color: #999;
+        margin-bottom: -16px;
+        font-size: 22px;
+    }
+    .icon ul {
+        padding-left: 0;
+    }
+    .icon ul li span {
+        padding: 0px 2px;
+        font-size: 40px;
+    }
+    .icon ul li:nth-child(1) span {
+        color: #3b5a9b;
+        padding-left: 0;
+    }
+    .icon ul li:nth-child(2) span {
+        color: #2b97f0;
+    }
+    .icon ul li:nth-child(3) span {
+        color: #dc4e41;
+    }
+    .bottom-middle-left a:hover{
+        text-decoration: underline;
+        color: #fff;
+    }
+
+
+
+    form h2 {
+        color: #999;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    form p{
+        color: #999;
+    }
+    .c-input{
+        background-color: #232323;
+        color: #7e7e7e;
+        border:1px solid #7e7e7e;
+        margin-bottom: 20px;
+    }
+    .f-button {
+        padding: 10px 125px;
+        background: #82b440;
+    }
+    .f-button:hover a {
+        text-decoration: none;
+    }
+    .anchor {
+        font-size: 13px;
+        margin-top: 10px;
+        display: block;
+    }
+    .anchor:hover {
+        text-decoration: underline;
+    }
+
+    .footer-middle-right .item img {
+        width: 141px;
+        margin-left: 17px;
+    }
+    .item .item-content {
+        width: 310px;
+    }
+    .item-content p {
+        color: #7e7e7e;
+        font-size: 12px;
+        line-height: 1.3em;
+        margin-top: 16px;
+        
+    }
+    .item-content a:hover{
+        color: #fff;
+        text-decoration: underline;
+    }
+    
+    /* ======= Bottom-middle-section css end=============== */
+    /* ======= footer-section css Start=============== */
+    .footer-section {
+        background-color: #333333;
+    }
+    .footer-section p{
+        color: #7e7e7e;
+    }
+    /* ======= footer-section css end=============== */
+
+
+
+
+
+   
